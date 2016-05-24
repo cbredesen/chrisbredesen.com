@@ -35,18 +35,18 @@ sidebar:
             title: global.home
             url: /
             icon: home
-        categories:
-            title: global.categories
-            url: /all-categories
-            icon: bookmark
-        tags:
-            title: global.tags
-            url: /all-tags
-            icon: tags
-        archives:
-            title: global.archives
-            url: /all-archives
-            icon: archive
+        # categories:
+        #     title: global.categories
+        #     url: /all-categories
+        #     icon: bookmark
+        # tags:
+        #     title: global.tags
+        #     url: /all-tags
+        #     icon: tags
+        # archives:
+        #     title: global.archives
+        #     url: /all-archives
+        #     icon: archive
         # search:
         #     title: global.search
         #     url: /#search
@@ -58,10 +58,10 @@ sidebar:
             url: /#about
             icon: question
     author_links:
-        # github:
-        #     title: global.github
-        #     url: https://github.com/
-        #     icon: github
+        github:
+            title: global.github
+            url: https://github.com/cbredesen
+            icon: github
         # stack_overflow:
         #     title: global.stack_overflow
         #     url: http://stackoverflow.com/users
@@ -78,10 +78,10 @@ sidebar:
         #     title: global.google_plus
         #     url: https://plus.google.com/
         #     icon: google-plus
-        # linked_in:
-        #     title: global.linkedin
-        #     url: https://www.linkedin.com/profile/
-        #     icon: linkedin
+        linked_in:
+            title: global.linkedin
+            url: https://www.linkedin.com/in/breddy
+            icon: linkedin
         # mail:
         #     title: global.mail
         #     url: mailto:
@@ -113,14 +113,14 @@ header:
 # Your biography and your job is editable in each languages files in `languages` folder
 author:
     email:
-    location:
+    location: Orlando, FL
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production)
     # or you can use an external url
     # Overwritten by your gravatar image if `gravatar_email` is filled
     picture:
     # Your Twitter username without the @. E.g : `tranquilpeak`
-    twitter:
+    twitter: cbredesen
     # Your google plus profile id. E.g : `+Tranquilpeak` or `123812884128439`
     google_plus:
 
@@ -174,7 +174,7 @@ google_analytics_id:
 # Your Baidu analystics web property ID : 9505a5af654a2478f93fd6c0ae4f687d
 baidu_analytics_id:
 # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-gravatar_email:
+gravatar_email: chris@breddy.net
 # Your swiftype install key
 swiftype_install_key:
 # Your Facebook user ids used to connect your blog with your facebook user accounts (Facebook Insights). Separate ids with comma. e.g : 9830047,1003342
