@@ -1,6 +1,6 @@
 ---
 title: Site Architecture
-date: 2016-05-22 22:34:23
+date: 2016-05-22 22:34
 tags:
 ---
 

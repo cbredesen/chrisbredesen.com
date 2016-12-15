@@ -1,6 +1,6 @@
 ---
 title: Back From the Dead
-date: 2016-05-22 22:12:45
+date: 2016-05-22 22:12
 tags:
 ---
 
