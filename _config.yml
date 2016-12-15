@@ -26,7 +26,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-full_path: /home/remote/cbredese/Workspaces/cbredesen/chrisbredesen.com
+#full_path: /home/remote/cbredese/Workspaces/cbredesen/chrisbredesen.com
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -63,14 +63,22 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
-plugins:
-- hexo-deployer-sync-s3
+#plugins:
+#- hexo-deployer-sync-s3
 
 ## Themes: http://hexo.io/themes/
 theme: tranquilpeak
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
-deploy:
-  type: s3
-  bucket: chrisbredesen.com
+#deploy:
+#  type: s3
+#  bucket: chrisbredesen.com
+
+# Local server
+server:
+  port: 4000
+  log: false
+  ip: 0.0.0.0
+  compress: false
+  header: true

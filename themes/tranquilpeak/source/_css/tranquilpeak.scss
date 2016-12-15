@@ -19,15 +19,14 @@
 @import
     'base/base';
 
-@import
-    'layout/about',
-    'layout/blog',
-    'layout/bottom-bar',
-    'layout/cover',
-    'layout/footer',
-    'layout/header',
-    'layout/main',
-    'layout/sidebar';
+@import 'layouts/about',
+'layouts/blog',
+'layouts/bottom-bar',
+'layouts/cover',
+'layouts/footer',
+'layouts/header',
+'layouts/main',
+'layouts/sidebar';
 
 @import
     'components/alert',
@@ -45,6 +44,8 @@
     'components/link',
     'components/main-content',
     'components/markdown',
+    'components/media',
+    'components/modal',
     'components/pagination',
     'components/post',
     'components/post-actions',
@@ -56,6 +57,9 @@
     'components/text',
     'components/tooltip',
     'components/video';
+
+@import
+    'pages/search';
 
 @import
     'themes/hljs-tranquilpeak',

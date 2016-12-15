@@ -10,6 +10,7 @@ global:
     archives: "Archives"
     search: "Search"
     about: "About"
+    author_picture: "Author's picture"
     github: "GitHub"
     stack_overflow: "Stack Overflow"
     twitter: "Twitter"
@@ -56,6 +57,6 @@ post:
 
 author:
     # Your biography (Markdown and HTML supported)
-    bio: "Father, husband, geek; lover of truth and technology."
+    bio: ""
     # Your job
-    job: "Engineering Manager at [Red Hat](https://www.redhat.com)"
+    job: ""

@@ -1,37 +1,12 @@
-<% var rPhoto = /([\w:\-\/._#]+) *(["|'](.+)["|'])*/; %>
-
 <section class="postShorten-group main-content-wrap">
     <% page.posts.each(function(post) { %>
     <%
-        var thumbnailImageUrl = null;
         var tableOfContents = null;
+        var thumbnailImageUrl = post.thumbnailImageUrl;
         var postContent = post.content;
         // Define default position for the thumbnail image
         var thumbnailImagePosition = theme.thumbnail_image_position;
         /* Define thumbnail image */
-        if (theme.thumbnail_image && post.thumbnailImage && post.thumbnailImage.length) {
-            if (is_remote_url(post.thumbnailImage)) {
-                thumbnailImageUrl = post.thumbnailImage;
-            } else {
-                thumbnailImageUrl = url_for(post.permalink + post.thumbnailImage);
-            }
-            // Define third images (cover image and first photo) as thumbnail image
-        } else if (theme.thumbnail_image && (post.autoThumbnailImage === true ||
-            (theme.auto_thumbnail_image === true && post.autoThumbnailImage !== false))) {
-            if (post.photos && post.photos.length) {
-                if (is_remote_url(post.photos[0])) {
-                    thumbnailImageUrl = post.photos[0].match(rPhoto)[1];
-                } else {
-                    thumbnailImageUrl = url_for(post.permalink + post.photos[0].match(rPhoto)[1]);
-                }
-            } else if (post.coverImage && post.coverImage.length) {
-                if (is_remote_url(post.coverImage)) {
-                    thumbnailImageUrl = post.coverImage;
-                } else {
-                    thumbnailImageUrl = url_for(post.permalink + post.coverImage);
-                }
-            }
-        }
 
         // Define position of the thumbnail image
         if (!post.excerpt && !post.link) {
@@ -55,6 +30,14 @@
     %>
     <article class="postShorten postShorten--thumbnailimg-<%= thumbnailImagePosition %>" itemscope itemType="http://schema.org/BlogPosting">
         <div class="postShorten-wrap">
+            <% if (thumbnailImageUrl !== null && thumbnailImagePosition === "top") { %>
+                <a href="<%- url_for(post.path) %>">
+                    <div class="postShorten-thumbnailimg">
+                        <img alt="" itemprop="image" src="<%= thumbnailImageUrl %>"/>
+                    </div>
+                </a>
+                <% thumbnailImageUrl = null; %>
+            <% } %>
             <div class="postShorten-header">
                 <h1 class="postShorten-title" itemprop="headline">
                     <% if (post.link) { %>
@@ -69,12 +52,6 @@
                 </h1>
                 <%- partial('post/meta', {post: post, classes: ['postShorten-meta']}) %>
             </div>
-            <% if (thumbnailImageUrl !== null && thumbnailImagePosition === "bottom") { %>
-                <div class="postShorten-thumbnailimg postShorten--thumbnailimg-bottom">
-                    <img alt="" itemprop="image" src="<%= thumbnailImageUrl %>"/>
-                </div>
-                <% thumbnailImageUrl = null; %>
-            <% } %>
             <% if (post.excerpt || post.link) { %>
                 <div class="postShorten-excerpt" itemprop="articleBody">
                     <%- post.excerpt %>
@@ -109,10 +86,12 @@
                 </div>
             <% } %>
         </div>
-        <% if (thumbnailImageUrl !== null && thumbnailImagePosition !== "bottom") { %>
-            <div class="postShorten-thumbnailimg">
-                <img alt="" itemprop="image" src="<%= thumbnailImageUrl %>"/>
-            </div>
+        <% if (thumbnailImageUrl !== null && thumbnailImagePosition !== "top") { %>
+            <a href="<%- url_for(post.path) %>">
+                <div class="postShorten-thumbnailimg">
+                    <img alt="" itemprop="image" src="<%= thumbnailImageUrl %>"/>
+                </div>
+            </a>
             <% thumbnailImageUrl = null; %>
         <% } %>
     </article>
