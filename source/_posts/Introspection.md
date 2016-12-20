@@ -2,6 +2,7 @@
 title: Introspection
 date: 2016-12-15 18:07:38
 tags:
+- meta
 ---
 
 I've been thinking a lot about how to preserve some of my thoughts publicly and what form this site should take. My misadventures with WordPress on the now-defunct breddy.net left me with a bad taste in my mouth for PHP frameworks and I remain skeptical of publish-platform-as-a-service offerings like Medium, Tumblr and Facebook. Twitter is too limiting for reasonable discourse.
