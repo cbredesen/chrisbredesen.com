@@ -73,3 +73,11 @@ theme: tranquilpeak
 deploy:
   type: s3
   bucket: chrisbredesen.com
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+
