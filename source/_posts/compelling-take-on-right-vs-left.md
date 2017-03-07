@@ -2,6 +2,7 @@
 title: Compelling Take on Right vs Left
 date: 2017-02-19 23:30:19
 tags:
+- politics
 ---
 
 I've been reading -- and greatly enjoying -- Scott Alexander's writing over at [Slate
