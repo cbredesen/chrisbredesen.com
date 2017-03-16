@@ -10,6 +10,8 @@ There are plenty of reasons and justifications for why Donald Trump "beat the od
 
 > I made a huge mistake in how I evaluated it, obviously. I thought logic and common sense and facts mattered to most voters. But the reality is, we all — including all of us here — tend to take the path of least resistance.
 
+<!-- more -->
+
 Of course this [not news](http://blog.dilbert.com/post/135197159371/a-voters-guide-to-thinking) to anyone paying attention to Scott Adams writing on the  matter. Same paragraph, continued:
 
 > We just want to get through our lives, we want to get through our days. We want to give ourselves, our family, our kids a reason to smile, right? If you’re stuck and things aren’t going well and you don’t see very high prospects or positive prospects for your children and your family, you get what you got if you vote for a traditional politician. What’s the worst that can happen if I vote for Trump and he turns out to be an idiot, right? More of my friends will have opioid issues? If things are already going poorly, if things aren’t going the way you anticipate, go for it. It’s Hail Mary voting.

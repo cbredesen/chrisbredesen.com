@@ -7,6 +7,8 @@ tags:
 
 The way it works is I have a bunch of Markdown that gets processed by [Hexo](https://hexo.io/) and synced to an S3 bucket. This is a process that was ostensibly made mainstream by Jekyll but is now supported by a lot of different tools in the same genre.
 
+<!-- more -->
+
 I started awhile back with [Awestruct](http://awestruct.org/) but could never get the Ruby dependencies worked out.
 
 Then I took a look at [Jekyll](https://jekyllrb.com/) since it is by most measures the most popular static site generator. What I dislike about Jekyll is that the tool and the theme are coupled in a way that seems like it'll make upgrading one or the other in the future difficult.

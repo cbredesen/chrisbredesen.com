@@ -12,6 +12,8 @@ You might think it odd that a guy who grew up in Florida never witnessed a rocke
 
 ![Atlas V EchoStar XIX launch](/assets/images/atlas-v.jpg)
 
+<!-- more --> 
+
 I won't go into detail about the mission; you can read the [details straight from ULA.](http://www.ulalaunch.com/atlas-v-to-launch-echostar-xix.aspx?title=Atlas+V+to+Launch+EchoStar+XIX). The whole experience is something to be enjoyed from start to finish - planning the trip, driving across Merritt Island, finding a spot on the beach. frolicking in the waves.
 
 The actual launch (from the lay person's perspective) is pretty brief. But what's there is exhilarating. The moment we reach T-0, Atlas' solid rocket boosters produce a huge plume of steam and exhaust and, shortly after, the bright glow of burning rocket propellant. Speed builds fast and after several seconds the sound becomes audible. It's closest to rumbling thunder but gets slowly louder and louder until the beach shakes quiet substantially for maybe 30sec. All this from 6 miles away!

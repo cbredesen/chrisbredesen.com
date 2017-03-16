@@ -5,12 +5,13 @@ tags:
 - politics
 ---
 
-I've been reading -- and greatly enjoying -- Scott Alexander's writing over at [Slate
-Star Codex](http://slatestarcodex.com). I don't recall how I first ran across this trove of deep though but it's worth noting that [/r/slatestarcodex](https://www.reddit.com/r/slatestarcodex/) is also a thing.
+I've been reading -- and greatly enjoying -- Scott Alexander's writing over at [Slate Star Codex](http://slatestarcodex.com). I don't recall how I first ran across this trove of deep though but it's worth noting that [/r/slatestarcodex](https://www.reddit.com/r/slatestarcodex/) is also a thing.
 
-Among his (self-selected?) best-of list is this gem from 2013 entitled [A Thrive/Survive Theory of the Political Spectum](http://slatestarcodex.com/2013/03/04/a-thrivesurvive-theory-of-the-political-spectrum/). Part way through, he gives up the goods:
+Among his (self-selected?) best-of list is this gem from 2013 entitled [A Thrive/Survive Theory of the Political Spectrum](http://slatestarcodex.com/2013/03/04/a-thrivesurvive-theory-of-the-political-spectrum/). Part way through, he gives up the goods:
 
 > Okay, I’ll put you out of your misery and tell you my hypothesis now. My hypothesis is that rightism is what happens when you’re optimizing for surviving an unsafe environment, leftism is what happens when you’re optimized for thriving in a safe environment.
+
+<!-- more -->
 
 This is an explanation I have not heard and maybe that's what makes it so interesting. Later on in the piece, after some worthwhile point-making:
 
