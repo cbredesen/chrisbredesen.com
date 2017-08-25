@@ -65,7 +65,7 @@ theme: tranquilpeak-1.10
 
 # Deployment
 deploy:
-  type: s3
+  type: s3-cloudfront
   bucket: chrisbredesen.com
   cf_distribution: E3MIM4G6ZCVGI8
 
