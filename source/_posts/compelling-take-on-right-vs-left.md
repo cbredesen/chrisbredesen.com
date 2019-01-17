@@ -1,8 +1,10 @@
 ---
 title: Compelling Take on Right vs Left
 date: 2017-02-19 23:30:19
+categories:
+  - Personal
 tags:
-- politics
+  - politics
 ---
 
 I've been reading -- and greatly enjoying -- Scott Alexander's writing over at [Slate Star Codex](http://slatestarcodex.com). I don't recall how I first ran across this trove of deep though but it's worth noting that [/r/slatestarcodex](https://www.reddit.com/r/slatestarcodex/) is also a thing.

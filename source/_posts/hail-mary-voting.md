@@ -1,6 +1,8 @@
 ---
 title: Hail Mary voting
 date: 2017-03-07 17:14:33
+categories:
+  - Personal
 tags:
 - politics
 - trump

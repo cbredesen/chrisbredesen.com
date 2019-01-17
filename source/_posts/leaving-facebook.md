@@ -1,5 +1,7 @@
 title: Leaving Facebook
 date: 2019-01-04
+categories:
+  - Personal
 tags:
 - facebook
 ---

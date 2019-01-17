@@ -1,16 +1,18 @@
 ---
 title: Atlas V Launch
 date: 2016-12-19 15:37:31
+categories:
+  - Personal
 tags:
-- space
-- ula
-- nasa
-- florida
+  - space
+  - ula
+  - nasa
+  - florida
 ---
 
 You might think it odd that a guy who grew up in Florida never witnessed a rocket launch up close. Alas, I attended my first this past weekend. My kids, having an ever increasing appetite for spaceflight, came with me. We all enjoyed it immensely.
 
-![Atlas V EchoStar XIX launch](/assets/images/atlas-v.jpg)
+{% asset_img atlas-v.jpg "Atlas V as seen from Playalinda Beach, FL" %}
 
 <!-- more --> 
 

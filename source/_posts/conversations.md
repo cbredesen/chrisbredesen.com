@@ -1,6 +1,9 @@
 title: Conversations
 date: 2018-05-02 17:58:49
+categories:
+  - Personal
 tags:
+  - meta
 ---
 
 I recently came across this [collection of drawings](https://drawings.jvns.ca) by Julia Evans. [This one](https://drawings.jvns.ca/productiveconversations/) resonated with me:

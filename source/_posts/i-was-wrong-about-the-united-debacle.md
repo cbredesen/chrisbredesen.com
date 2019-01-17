@@ -1,6 +1,8 @@
 ---
 title: I Was Wrong About the United Debacle
 date: 2017-04-17 17:01:10
+categories:
+  - Personal
 tags:
 ---
 

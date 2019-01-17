@@ -1,6 +1,8 @@
 ---
 title: Intel Compute Card
 date: 2017-01-14 12:46:24
+categories:
+  - Personal
 tags:
 - tech
 - mobile

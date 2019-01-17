@@ -2,6 +2,9 @@
 title: 'Coldplay in Miami Aug 28, 2017'
 date: 2017-09-03 14:42:39
 coverImage: coldplay_hardrock.jpg
+thumbnail: coldplay_hardrock.jpg
+categories:
+  - Personal
 tags:
   - music
 ---
@@ -9,6 +12,8 @@ tags:
 I've rewritten the intro to the post twice, sparing you all the history of missing the last few Coldplay shows and why we finally wanted to see them in Miami. You're welcome.
 
 <!-- more -->
+
+{% asset_img coldplay_hardrock.jpg "Coldplay at Hard Rock Stadium" %}
 
 A few thoughts about the show:
 

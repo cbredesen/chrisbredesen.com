@@ -1,8 +1,11 @@
 ---
 title: Site Architecture
 date: 2016-05-22 22:34
+categories:
+  - Personal
 tags:
-- meta
+  - meta
+  - hexo
 ---
 
 The way it works is I have a bunch of Markdown that gets processed by [Hexo](https://hexo.io/) and synced to an S3 bucket. This is a process that was ostensibly made mainstream by Jekyll but is now supported by a lot of different tools in the same genre.

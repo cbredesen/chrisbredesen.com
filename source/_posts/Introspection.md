@@ -1,6 +1,8 @@
 ---
 title: Introspection
 date: 2016-12-15 18:07:38
+categories:
+  - Personal
 tags:
 - meta
 ---

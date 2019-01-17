@@ -10,7 +10,7 @@ tags:
 
 On August 21, 2017 I and my family were lucky enough to be able to travel into the [path of totality](https://eclipse2017.nasa.gov/sites/default/files/interactive_map/index.html) to view a solar eclipse. I'd been wanting to do so for a few months and with a little planning and a ton of luck we got what we came for.
 
-![Solar eclipse stages, August 21, 2017](/assets/images/eclipse_totality.jpg)
+{% asset_img eclipse_totality.jpg "Solar eclipse stages, August 21, 2017" %}
 
 <!-- more -->
 
@@ -24,7 +24,7 @@ We arrived in the small town as the moon began its transit across our view of th
 
 The kids were excited, as was I, so I handed out glasses and we all had a look. At this point only a small portion of the sun was occluded so we went ahead and ate. By the time we finished, things had progressed nicely and I got my camera set up. More about that setup in a future post - I learned a lot and it paid off. I just need more eclipses to practice the art.
 
-![Fuji X-T1, Fujinon XF55-200, Solar filter film](/assets/images/eclipse_setup.jpg)
+{% asset_img eclipse_setup.jpg "Fuji X-T1, Fujinon XF55-200, Solar filter film" %}
 
 Once the eclipse was well under way -- perhaps 85% or so -- things got interesting. To avoid textual rambling, I'll put my thoughts into bullet points:
 
@@ -38,7 +38,7 @@ Once the eclipse was well under way -- perhaps 85% or so -- things got interesti
 
   * Totality is *fucking cool*. Everything feels more or less like 20min or so after a normal sunset, including colors on the horizon. Nothing odd until you look up and there's a *fiery black hole in the sky*.
 
-![Progression from about 90% through totality](/assets/images/eclipse_progression.jpg)
+{% asset_img eclipse_progression.jpg "Progression from about 90% through totality" %}
 
 The experience of standing in a 360-degree sunset during the afternoon staring at a deep black hole in the middle of the sun is surreal, to say the least. And the appearance of the corona is really quite spectacular, doubly so when you realize it's always there but unable to be seen due to the magnitude of the sun's light. Till just a few months ago I had thought the pictures of total eclipses were all modified in some way to show the sun's "rays" emanating from behind the moon. Thie is not so at all -- the sun's corona is easily visible with the naked eye and serves to make the darkness of the moon's coverage that much more dramatic. 
 
