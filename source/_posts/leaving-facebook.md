@@ -22,3 +22,5 @@ A few articles worth reading:
 At the end of the day, I prefer an open web, free of inconsistent or heavy-handed editorial influence by companies like Facebook. That's not to say they aren't incredibly good at providing something the world needs - they are. But the cost has become too high. 
 
 I recommend checking out [Time Well Spent](https://humanetech.com) or listening to Tristan Harris' [TED talk](https://www.ted.com/talks/tristan_harris_how_better_tech_could_protect_us_from_distraction?language=en).
+
+{% asset_img dislike.jpg "Dislike Facebook" %}
