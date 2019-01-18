@@ -1,5 +1,6 @@
 title: Leaving Facebook
 date: 2019-01-04
+thumbnail: dislike.jpg
 categories:
   - Personal
 tags:
