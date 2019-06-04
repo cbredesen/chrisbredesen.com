@@ -18,6 +18,5 @@ deploy:
   bucket: chrisbredesen.com
   local-dir: public
   upload-dir: travis-builds
-  acl: public_read
   on:
     repo: cbredesen/chrisbredesen.com
