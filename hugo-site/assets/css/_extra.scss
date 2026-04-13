@@ -1,0 +1,42 @@
+// Sidebar text overrides — $lightest-color and $light-color are set for the
+// light content pane, so we restore legible light tones for the dark sidebar.
+
+.app-header {
+  color: #c8c8c8;
+
+  .app-header-title {
+    color: #f2f2f2;
+  }
+
+  .app-header-menu-item {
+    // Links already use $primary-color (red) — readable on dark sidebar.
+    &:hover {
+      color: #f2f2f2;
+    }
+  }
+
+  p {
+    color: #c8c8c8;
+  }
+
+  .app-header-social {
+    color: #f2f2f2;
+
+    a {
+      color: #f2f2f2;
+    }
+  }
+}
+
+// Blockquotes sit inside the light content pane; swap their dark bg for a
+// slightly deeper grey so they still stand out without being jarring.
+.post-content blockquote {
+  background: #d4d4d4;
+}
+
+// Post list summaries
+.posts-list-item-summary {
+  margin: 0.4em 0 0.2em;
+  font-size: 0.9em;
+  color: #444;
+}
