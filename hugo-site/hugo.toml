@@ -6,15 +6,16 @@ theme = "hugo-theme-m10cb"
 [params]
   author = "Chris Bredesen"
   description = "Father, geek and software engineering leader writing about whatever is on my mind in the moment."
-  avatar = ""
-  menu_item_separator = " - "
+  avatar = "cb_iceland.jpeg"
+  menu_item_separator = " | "
 
-[params.style]
-  darkestColor  = "#353535"  # sidebar background
-  darkColor     = "#e8e8e8"  # main content background
-  lightColor    = "#2a2a2a"  # body text (dark for light bg)
-  lightestColor = "#111111" # headings (dark for light bg)
-  primaryColor  = "#c0392b"  # red — links, avatar ring, code borders
+[params.style] 
+  # Gemini helped with this 
+  darkestColor  = "#1e293b"  # sidebar background (deep slate)
+  darkColor     = "#f8fafc"  # main content background (cool off-white)
+  lightColor    = "#334155"  # body text (soft dark slate)
+  lightestColor = "#0f172a"  # headings (near-black slate)
+  primaryColor  = "#e11d48"  # red — links, avatar ring, code borders (vibrant rose-red)
 
 [[params.social]]
   icon = "brand-github"
